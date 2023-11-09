@@ -295,6 +295,10 @@ table {
   border-collapse: collapse;
 }
 
+.about_me{
+  font-weight: bold;
+}
+
 caption {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
