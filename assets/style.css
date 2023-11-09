@@ -50,6 +50,10 @@ body {
 	position: relative;
 }
 
+.about_me p{
+	font-weight: bold;
+  }
+
 .picture.left::before {
 	content: ' ';
 	background-color: #E5975F;
@@ -90,9 +94,7 @@ body {
 	font-size: 14px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
+
 .title{
 	text-align: center;
 	padding-block: 2em;
