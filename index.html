@@ -61,7 +61,12 @@
 			<li><a href="#gallery">Galerie</a></li>
 			<li><a href="#services">Service</a></li>
 			<li><a href="#contact">Contact</a></li>
-			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.webp" alt=""></a></li>
+			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.webp"
+				width="20"
+				height="20"  
+				alt="Logo d'instagram">
+				</a>
+			</li>
 		</ul>
 	</div>
 </div>
@@ -116,7 +121,14 @@
 </div>
 <div id="about">
 	<div class="picture left">
-		<img src="./assets/images/nina.webp" alt="Photo de Nina Carducci , photographe professionnel">
+		<img
+			srcset="./assets/images/nina.webp 450w"
+			sizes="(max-width: 450px) 450px, 750px"	
+			src="./assets/images/nina.webp"
+			width="750"
+			height="1000"      
+			alt="Photo de Nina Carducci , photographe professionnel"
+			loading="lazy">
 	</div>
 	<div id="about-me">
 		<h3> A propos de moi</h3>
