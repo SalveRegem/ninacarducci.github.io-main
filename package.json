@@ -4,15 +4,15 @@
   "description": "SEO Project",
   "main": "index.html",
   "scripts": {
-      "build": "npm run build"
+    "build": "webpack build"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/SalveRegem/ninacarducci.github.io-main"
   },
-  "keywords": [
-    "Shenzi2021!!!"
-  ],
   "author": "Amaury Barbieri",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "webpack-cli": "^5.1.4"
+  }
 }
