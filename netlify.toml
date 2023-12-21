@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build"
+  publish = "ninacarducci.github.io-main"
+
+[settings]
+  # Ajoutez vos variables d'environnement ici si nécessaire
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 301
